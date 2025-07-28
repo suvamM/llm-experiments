@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "agents", "agents", "{BB45B5A8-6B14-5255-64D0-EA6BEE8A90C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trip-planner", "trip-planner", "{D15D6769-E572-C746-4DE0-972CA84E14DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trip-planner-agent", "src\agents\trip-planner\trip-planner-agent\trip-planner-agent.csproj", "{2E532A83-273D-D7A3-99D1-539EEF173639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E532A83-273D-D7A3-99D1-539EEF173639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E532A83-273D-D7A3-99D1-539EEF173639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E532A83-273D-D7A3-99D1-539EEF173639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E532A83-273D-D7A3-99D1-539EEF173639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB45B5A8-6B14-5255-64D0-EA6BEE8A90C1} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{D15D6769-E572-C746-4DE0-972CA84E14DF} = {BB45B5A8-6B14-5255-64D0-EA6BEE8A90C1}
+		{2E532A83-273D-D7A3-99D1-539EEF173639} = {D15D6769-E572-C746-4DE0-972CA84E14DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDB6F40B-5440-47A6-BD59-AEE813753F55}
+	EndGlobalSection
+EndGlobal
